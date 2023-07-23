@@ -30,7 +30,7 @@ export const AppRoutes = () => {
                 {/* <SiderComp {...user} /> */}
                 <Layout className="site-layout" style={{ backgroundColor: 'transparent' }}>
                     <Routes>
-                        <Route path="home-page" element={<ContentHome />} />
+                        <Route path="/send-review/home-page" element={<ContentHome />} />
                         
                     </Routes>
                     <FooterComp />

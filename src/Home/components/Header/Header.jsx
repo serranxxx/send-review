@@ -67,7 +67,7 @@ export const HeaderComp = (props) => {
     const handleReturn = () => {
 
         logout()
-        navigate("/login", {
+        navigate("/send-review/login", {
             replace: true
         })
     }

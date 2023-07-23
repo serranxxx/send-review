@@ -17,7 +17,7 @@ export const LoginPage = () => {
 
     const onFinish = (values) => {
         console.log(values)
-        navigate(`/home-page`)
+        navigate(`/send-review/home-page`)
 
     }
 
@@ -97,7 +97,7 @@ export const LoginPage = () => {
                                         height: '12vh'
                                     }} />
 
-                                
+
                                 </Row>
 
                                 <h1
@@ -234,13 +234,10 @@ export const LoginPage = () => {
                         <Row style={{
                             display: 'flex', alignItems: 'center', justifyContent: 'center'
                         }}>
-                            <img shape='square' src={metamap} style={{
-                                height: '3vh', marginRight: '1vh'
+                            <img shape='sqaure' src={user.loginSmall} style={{
+                                height: '12vh', marginTop:'3vh'
                             }} />
-                            <p style={{
-                                fontSize: '1.4em',
-                                fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-                            }}>Meta<b>Map</b></p>
+                            
                         </Row>
 
                         <h1
