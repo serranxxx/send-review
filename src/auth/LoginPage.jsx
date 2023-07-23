@@ -1,7 +1,7 @@
 
 
 import { Button, Checkbox, Col, Form, Input, Layout, Modal, Row } from 'antd';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import logo from '../assets/SVG/login-bg.svg'
 import metamap from '../assets/SVG/metamap-logo.svg'
@@ -32,6 +32,14 @@ export const LoginPage = () => {
     const handleCancel = () => {
         setVisible(false)
     }
+
+    useEffect(() => {
+        const changeBody = () => {
+          document.body.style.backgroundColor = `#fff0e7`;
+        }
+    
+        changeBody()
+      }, [])
 
 
     return (

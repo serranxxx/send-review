@@ -98,16 +98,7 @@ export const AuthProvider = ({ children }) => {
         dispatch(action)
     }
 
-    const dailyGoal = (goal = '') => {
-        const dailyG = goal
-        const action = {
-            type: types.dailyGoal,
-            payload: dailyG
-        }
 
-        localStorage.setItem('goal', JSON.stringify(dailyG))
-        dispatch(action)
-    }
 
 
 
@@ -120,7 +111,6 @@ export const AuthProvider = ({ children }) => {
             darkTheme,
             enLanguage,
             esLanguage,
-            dailyGoal
         }}>
             {children}
         </AuthContext.Provider>

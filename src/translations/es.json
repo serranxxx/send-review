@@ -21,18 +21,18 @@
     "Metrics.title": "Métricas",
     
     "Home.buttonRandom": "Envíos",
-    "Home.randomText": "Establece una configuración y envía todo tipo de pruebas, de manera específica o aleatoria",
+    "Home.randomText": "Establece una configuración y envía todo tipo de documentos.",
     "Home.randomStar": "Empieza a enviar",
 
     "Home.buttonCustomer": "Revisiones",
-    "Home.customerText": "Inspecciona resultados, compara respuestas y revisa cada prueba que has enviado",
+    "Home.customerText": "Inspecciona resultados, compara respuestas y haz revisiones",
     "Home.customerStar": "Empieza a revisar",
 
     "Home.buttonReview": "Métricas",
-    "Home.reviewText": "Analiza cuantas pruebas has enviado y cuantas has revisado",
+    "Home.reviewText": "Analiza cuantos documentos has enviado y cuantos has revisado",
     "Home.reviewStar": "Empieza a analizar",
 
-    "Home.text": "La manera más fácil para enviar y revisar pruebas",
+    "Home.text": "La manera más fácil para enviar y revisar documentos",
     "Home.lestsStart": "!Empecemos ahora!",
     "Home.latestShipment": "Últimos envíos",
     "Home.Queue": "Fila por país",

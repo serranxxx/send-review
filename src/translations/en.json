@@ -22,18 +22,18 @@
     "Metrics.title": "Metrics",
 
     "Home.buttonRandom": "Shipments",
-    "Home.randomText": "Set up a configuration and send all kinds of tests, specifically or randomly",
+    "Home.randomText": "Set up a configuration and send all kinds of documents.",
     "Home.randomStar": "Start sending",
 
     "Home.buttonCustomer": "Reviews",
-    "Home.customerText": "Inspect results, compare answers and review every test you have sent",
+    "Home.customerText": "Inspect results, compare answers and make reviews.",
     "Home.customerStar": "Start reviewing",
 
     "Home.buttonReview": "Metrics",
-    "Home.reviewText": "Analyze how many tests you have sent and how many you have reviewed",
+    "Home.reviewText": "Analyze how many documents you have sent and how many you have reviewed",
     "Home.reviewStar": "Start analyzing",
 
-    "Home.text": "The easiest way to send and review tests",
+    "Home.text": "The easiest way to send and review documents",
     "Home.lestsStart": "Let's start now!",
     "Home.latestShipment": "Latest shipments",
     "Home.Queue": "Queue by country",

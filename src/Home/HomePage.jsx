@@ -1,10 +1,11 @@
 
 import { Layout, Row, } from "antd"
-import { HeaderComp, HomeButtons } from "./"
+import { FooterComp, HeaderComp, HomeButtons } from "./"
 import useGetUser from "./hooks/useGetUser"
 import { HomeFilled } from '@ant-design/icons';
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { AuthContext } from "../auth";
 
 const { Content } = Layout
 
@@ -13,10 +14,10 @@ export const ContentHome = () => {
 
 
   const user = useGetUser()
-  const theme = JSON.parse(localStorage.getItem('theme'))
+  // const theme = JSON.parse(localStorage.getItem('theme'))
+  const { theme } = useContext(AuthContext)
   const [homeState, setHomeState] = useState(0)
   const [text, setText] = useState(0)
-  // const { theme } = useContext( AuthContext )
   const { t } = useTranslation();
 
   const handlehomeState = () => {
@@ -35,14 +36,26 @@ export const ContentHome = () => {
     handleText()
   }
 
+  useEffect(() => {
+    const changeBody = () => {
+      document.body.style.backgroundColor = `${theme ? '#e3e3e3' : '#333333'}`;
+    }
+
+    changeBody()
+  }, [theme])
 
 
   return (
 
-    <>
-      <HeaderComp text={<p>send<b> & </b>review</p>} {...user} icon={<HomeFilled />} isHome={true} />
-      <Content>
+    <div
+      className="background-app"
+      style={{
+        borderLeft: '2px solid #000', borderRight: '2px solid #000', borderRadius: '2vh',
+        backgroundColor: `${theme ? '#f3f3f3' : '#333437'}`, transition: 'all 0.05s ease-in-out',
 
+      }}>
+      <HeaderComp text={<p><b>Sender</b>Reviewer</p>} {...user} icon={<HomeFilled />} isHome={true} />
+      <Content>
         <div style={{
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           flexDirection: 'column', height: 'auto', width: 'auto', flexWrap: 'wrap'
@@ -107,10 +120,9 @@ export const ContentHome = () => {
 
           </div> */}
         </div>
-
-
+        <FooterComp />
       </Content>
-    </>
+    </div>
 
 
   )

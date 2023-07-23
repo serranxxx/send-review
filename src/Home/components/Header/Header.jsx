@@ -229,8 +229,8 @@ export const HeaderComp = (props) => {
                 // borderRight: '2px solid black',
                 borderBottom: '2px solid black',
 
-                borderTopRightRadius: '1vw',
-                borderTopLeftRadius: '1vw'
+                borderTopRightRadius: '2vh',
+                borderTopLeftRadius: '2vh'
                 // borderBottomRightRadius: '1vw',
 
 
