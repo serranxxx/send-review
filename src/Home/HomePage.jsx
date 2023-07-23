@@ -1,13 +1,10 @@
 
-import { Layout, Button, Row, DatePicker } from "antd"
+import { Layout, Row, } from "antd"
 import { HeaderComp, HomeButtons } from "./"
 import useGetUser from "./hooks/useGetUser"
 import { HomeFilled } from '@ant-design/icons';
-import { useContext, useEffect, useState } from "react";
-import { AuthContext } from "../auth";
-import { UpOutlined } from '@ant-design/icons';
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { LatestShipments } from "./components/HomeContent/LatestShipments";
 
 const { Content } = Layout
 

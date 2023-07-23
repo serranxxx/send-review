@@ -17,7 +17,7 @@ export const LoginPage = () => {
 
     const onFinish = (values) => {
         console.log(values)
-        navigate(`/send-review/home-page`)
+        navigate("/send-review/home-page")
 
     }
 
@@ -251,7 +251,7 @@ export const LoginPage = () => {
                     <div
 
                         style={{
-                            height: '60%', width: '60%', display: 'flex',
+                            height: '60%', width: '70%', display: 'flex',
                             alignItems: 'center', justifyContent: 'center',
                         }}>
 
