@@ -1,0 +1,295 @@
+@media screen and (max-width: 750px) {
+
+    .title {
+        display: flex;
+        width: 80%;
+        /* margin-top: -5vh; */
+    }
+
+    .header-title {
+        font-size: 3.5em;
+        text-align: center;
+        line-height: 0.9em;
+    }
+
+    .lets-start-sending {
+        display: none;
+    }
+
+    .home-move {
+        display: none;
+        width: 35vh;
+    }
+
+    .home-buttons {
+        display: none;
+    }
+
+    .home-buttons-2 {
+        display: none;
+    }
+
+    .home-buttons-3 {
+        display: flex;
+    }
+
+    .logo-header {
+        display: none;
+    }
+
+    .home-table {
+        display: none;
+    }
+
+    .home-menu {
+        justify-content: left;
+        width: 100%;
+        margin-left: -10vh;
+    }
+
+    .setup-container {
+        display: none;
+    }
+
+    .second-setup-container {
+        display: flex;
+    }
+
+    .contenedor {
+        background-color: #f3f3f3;
+    }
+
+    .contenedor-dark {
+        background-color: #222326;
+    }
+
+    .setup-container-2 {
+        display: flex;
+    }
+
+    .setup-container {
+        display: none;
+    }
+
+    .sending-1 {
+        display: none;
+    }
+
+    .sending-2 {
+        display: flex;
+    }
+    .login-normal {
+        display: none;
+    }
+
+    .login-small {
+        display: flex;
+    }
+
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+
+    .title {
+        display: flex;
+        margin-top: 5vh;
+        width: 40%;
+    }
+
+    .header-title {
+        font-size: 3em;
+        line-height: 1;
+
+    }
+
+    .lets-start-sending {
+        display: flex;
+    }
+
+    .home-move {
+        width: 40vh;
+    }
+
+    .home-buttons {
+        display: none;
+    }
+
+    .home-buttons-2 {
+        display: flex;
+    }
+
+    .home-buttons-3 {
+        display: none;
+    }
+
+    .logo-header {
+        display: flex;
+    }
+
+    .home-table {
+        display: flex;
+    }
+
+    .home-menu {
+        justify-content: right;
+        width: 50%;
+    }
+
+    .setup-container {
+        display: flex;
+    }
+
+    .second-setup-container {
+        display: none;
+    }
+
+    .contenedor {
+        background-color: transparent;
+    }
+
+    .contenedor-dark {
+        background-color: transparent;
+    }
+
+    .setup-container-2 {
+        display: none;
+    }
+
+    .setup-container {
+        display: flex;
+    }
+
+    .sending-1 {
+        display: flex;
+    }
+
+    .sending-2 {
+        display: none;
+    }
+
+    .sending-box {
+        width: 50%;
+    }
+
+    .login-normal {
+        display: flex;
+    }
+
+    .login-small {
+        display: none;
+    }
+
+    .login-color-side {
+        display: none;
+    }
+
+    .login-fff-side {
+        border-radius: 2vw;
+    }
+
+    
+
+
+
+
+}
+
+@media screen and (max-height: 200px) {}
+
+@media screen and (min-height: 201px) and (min-width: 1201px) {
+
+    .title {
+        display: flex;
+        margin-top: 5vh;
+        width: 45%;
+    }
+
+    .header-title {
+        font-size: 4.5em;
+        line-height: 1;
+    }
+
+    .lets-start-sending {
+        display: flex;
+    }
+
+    .home-move {
+        width: 45vh;
+    }
+
+    .home-buttons {
+        display: flex;
+    }
+
+    .home-buttons-2 {
+        display: none;
+    }
+
+    .home-buttons-3 {
+        display: none;
+    }
+
+    .logo-header {
+        display: flex;
+    }
+
+    .home-table {
+        display: flex;
+    }
+
+    .home-menu {
+        justify-content: right;
+        width: 50%;
+    }
+
+    .setup-container {
+        display: flex;
+    }
+
+    .second-setup-container {
+        display: none;
+    }
+
+    .contenedor {
+        background-color: transparent;
+    }
+
+    .contenedor-dark {
+        background-color: transparent;
+    }
+
+    .setup-container-2 {
+        display: none;
+    }
+
+    .setup-container {
+        display: flex;
+    }
+
+     .sending-1 {
+        display: flex;
+    }
+
+    .sending-2 {
+        display: none;
+    }
+
+    .sending-box {
+        width: 40%;
+    }
+
+    .login-normal {
+        display: flex;
+    }
+
+    .login-small {
+        display: none;
+    }
+
+    .login-fff-side {
+        border-radius: 2vw 0 0 2vw;
+    }
+
+
+}

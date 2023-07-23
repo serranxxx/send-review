@@ -1,0 +1,152 @@
+{
+
+    "Login.username": "Username",
+    "Login.password": "Password",
+    "Login.remember": "Remember me",
+    "Login.login": "Login",
+    "Login.welcome": "Welcome back!",
+
+    "Sider.title.collapsed": "Send and Review",
+    "Sider.title": "Send and Review",
+    "Sider.todaysGoal": "Today's goal",
+    "Sider.testSent": "Sent",
+    "Sider.testWord": "tests",
+    "Sider.Reviewed": "Reviewed",
+    "Sider.EditGoals": "Edit Goals",
+    "Sider.AcceptGaol": "Accept",
+    "Sider.SetGoal": "Set your daily goal",
+
+    "Home.title": "Home",
+    "Shipments.title": "Shipments",
+    "Reviews.title": "Reviews",
+    "Metrics.title": "Metrics",
+
+    "Home.buttonRandom": "Shipments",
+    "Home.randomText": "Set up a configuration and send all kinds of tests, specifically or randomly",
+    "Home.randomStar": "Start sending",
+
+    "Home.buttonCustomer": "Reviews",
+    "Home.customerText": "Inspect results, compare answers and review every test you have sent",
+    "Home.customerStar": "Start reviewing",
+
+    "Home.buttonReview": "Metrics",
+    "Home.reviewText": "Analyze how many tests you have sent and how many you have reviewed",
+    "Home.reviewStar": "Start analyzing",
+
+    "Home.text": "The easiest way to send and review tests",
+    "Home.lestsStart": "Let's start now!",
+    "Home.latestShipment": "Latest shipments",
+    "Home.Queue": "Queue by country",
+
+    "BackToHome.Button":"Back to home",
+
+    "Header.Menu.dayoff": "Day off",
+    "Header.Team": "Team: ",
+    "Header.Role": "Role: ",
+    "Header.Menu.language": "English",
+    "Header.Menu.Theme.light": "light",
+    "Header.Menu.Theme.dark": "Dark",
+    "Header.Menu.logout": "Logout",
+
+    "Random.Title": "Random Shipments",
+    "Random.Steps.SetConfig": "Set your configuration",
+    "Random.Steps.ConfirmData": "Confirm your data",
+    "Random.Steps.SendingTests": "Finished",
+    "Random.Steps.Done": "Done shipment",
+
+    "Random.setConfig.header-A": "Set up a configuration",
+    "Random.setConfig.header-B": "Select difficulties",
+    
+    "Random.setConfig.typeTest": "Test category",
+    "Random.setConfig.country": "Country",
+    "Random.setConfig.state": "State",
+    "Random.setConfig.document": "Document",
+    "Random.setConfig.docCountry": "Docs by country",
+    "Random.setConfig.docSwitch": "Switch",
+    "Random.setConfig.docCountry_All": "Select all",
+    "Random.setConfig.docCountry_All-B": "Selected all",
+    "Random.setConfig.docCountry_Specific": "Specific",
+    "Random.setConfig.typeShipment": "Type of shipment",
+    "Random.setConfig.typeShipment-Sepecific": "Specific",
+    "Random.setConfig.typeShipment-Random": "Random",
+    "Random.setConfig.Delay": "Delay (seconds)",
+    "Random.setConfig.Delay-2": "Delay",
+    "Random.confirmData.TimeShipment": "Time of shipment",
+    "Random.confirmData.difficulties": "Difficulties",
+    "Random.confirmData.noApply": "No apply",
+    "Random.confirmData.seconds": "seconds",
+    "Random.confirmData.now": "Now",
+
+    "Random.setConfig.Next": "Next",
+
+    "Random.setConfig.difficulty": "Difficulty",
+    "Random.setConfig.available": "Available",
+    "Random.setConfig.InputAmount": "Input amount",
+    "Random.setConfig.Schedule":"Schedule shipping",
+
+
+    "Random.setConfig.searchButton": "Search",
+    "Random.setConfig.finishButton": "Finish",
+    "Random.setConfig.cancelhButton": "Cancel", 
+    "Random.setConfig.dontAvailable": "There are no tests available",
+
+    "Random.SetConfig.warning.typeTest": "Please select a type of test",
+    "Random.SetConfig.warning.country": "Please select a country",
+    "Random.SetConfig.warning.state": "Please select a state",
+    "Random.SetConfig.warning.document": "Please select a type of document",
+    "Random.SetConfig.warning.grade": "Please select any document",
+    "Random.SetConfig.warning.typeShipment": "Please select a type of shipment",
+    "Random.SetConfig.warning.delay": "Please select a time interval",
+    "Random.SetConfig.warning.difficulty": "Please select at least one difficulty",
+    "Random.SetConfig.warning.buttons": "You must select country and document first",
+    "Random.SetConfig.warning.wait": "Please wait",
+
+    "Random.Confirm.text": "so, before do it, please make you sure that your configuration is correct",
+    "Random.Confirm.text2": "You are about to start a shipment",
+    "Random.Confirm.ConfirmButton": "Start shipment",
+    "Random.Confirm.PreviousButton": "Cancel",
+    
+
+    "Random.Sending.text": "Your tests have been sent",
+    "Random.Sending.text-2": "In a few moments you will be able to view the results in your home page, meanwhile you could start another shipment or go home",
+    
+    "Random.Sending.Button": "Go home",
+    "Random.Sending.Button-2": "Start another shipment",
+
+   
+
+    "Customer.Title": "Customer Complaint",
+    "Review.Title": "Test Review",
+
+    "LatestShipments.tester": "Tester",
+    "LatestShipments.date": "Sent time",
+    "LatestShipments.country": "Country",
+    "LatestShipments.document": "Document",
+    "LatestShipments.difficulty": "Difficulty",
+    "LatestShipments.identityID": "Identity ID",
+    "LatestShipments.documentID": "Docuemnt ID",
+    "LatestShipments.status": "Status",
+    "LatestShipments.reason": "Reason",
+    "LatestShipments.details": "Details",
+
+    "TableDetails.date":"Date of shipment",
+    "TableDetails.tester":"Sent by",
+    "TableDetails.config":"Test configuration",
+    "TableDetails.about":"About",
+    "TableDetails.front":"Front side",
+    "TableDetails.back":"Back side",
+    "TableDetails.close":"Close",
+
+    "Sending.test": "Sending"
+
+
+
+
+
+
+    
+    
+    
+
+
+  }

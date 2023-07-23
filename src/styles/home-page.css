@@ -1,0 +1,496 @@
+/*          HOME CONTENT                */
+
+.main-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: row;
+
+}
+
+.image-home-0 {
+  background-image: url('../assets/SVG/SVG/light-purple.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.image-home-1 {
+  background-image: url('../assets/SVG/SVG/light-orange.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.image-home-2 {
+  background-image: url('../assets/SVG/SVG/light-pink.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.image-home-3 {
+  background-image: url('../assets/SVG/SVG/light-green.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.dark-image-home-0 {
+  background-image: url('../assets/SVG/SVG/dark-purple.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.dark-image-home-1 {
+  background-image: url('../assets/SVG/SVG/dark-orange.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.dark-image-home-2 {
+  background-image: url('../assets/SVG/SVG/dark-pink.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.dark-image-home-3 {
+  background-image: url('../assets/SVG/SVG/dark-green.svg');
+  background-size: auto;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  transition: all 0.55s ease-in-out;
+}
+
+.home-move:hover {
+  transform: translateY(-10px);
+}
+
+.title {
+
+  transition: all 0.55s ease-in-out;
+  /* transform: translateY(-5px); */
+
+}
+
+.title:hover {
+  transition: all 0.55s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.slider-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  height: 85%;
+  width: 90%;
+  margin-left: 2%;
+  margin-top: 2%;
+
+}
+
+.slider-item {
+  flex-basis: 30%;
+  background-color: transparent;
+  transition: all 0.55s ease-in-out;
+  cursor: pointer;
+  margin-right: 2px;
+
+}
+
+.slider-item.selected {
+  flex-basis: 60%;
+  margin-right: 0;
+
+}
+
+.slider-item.selected:hover {
+  transform: translateY(-5px);
+
+}
+
+
+.random-shipment-button-non {
+
+  background-image: url('../assets/SVG/shipment-background.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  /* width: 70vh; */
+  /* height: 70vh; */
+  /* background-color: #c1b8ff; */
+
+  /* aspect-ratio: 1/1; */
+  transition: all 0.55s ease-in-out;
+}
+
+.random-shipment-button {
+
+  background-image: url('../assets/SVG/shipment-background.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  /* width: 70vh; */
+  /* height: 70vh; */
+  /* background-color: #c1b8ff; */
+
+  /* aspect-ratio: 1/1; */
+  transition: all 0.55s ease-in-out;
+
+
+}
+
+.random-shipment-img {
+
+  background-image: url('../assets/SVG/random-shipment-image.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  /* width: 70vh; */
+  /* height: 70vh; */
+  /* background-color: #c1b8ff; */
+
+  /* aspect-ratio: 1/1; */
+  transition: all 0.55s ease-in-out;
+
+}
+
+.customer-complaint-img {
+
+  background-image: url('../assets/SVG/customer-complaint-image.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  /* width: 70vh; */
+  /* height: 70vh; */
+  /* background-color: #c1b8ff; */
+
+  /* aspect-ratio: 1/1; */
+  transition: all 0.55s ease-in-out;
+
+
+}
+
+.random-test-img {
+
+  background-image: url('../assets/SVG/random-test-image.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+  /* width: 70vh; */
+  /* height: 70vh; */
+  /* background-color: #c1b8ff; */
+
+  /* aspect-ratio: 1/1; */
+  transition: all 0.55s ease-in-out;
+
+
+}
+
+.shipment-prueba {
+
+  /* background-image: url('../assets/SVG/background.svg'); */
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+
+  transition: all 0.55s ease-in-out;
+  /* transition: transform 0.55s ease-out; */
+
+}
+
+
+
+.infobox-container {
+  position: relative;
+}
+
+.info-box {
+  /* position: absolute; */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  color: #dfbaba;
+  border-radius: 20px;
+  padding: 0x;
+}
+
+.info-box p {
+  color: white;
+  margin: 0;
+  padding: 3em;
+  font-size: x-large;
+  /* color:whitesmoke; */
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10vh;
+  border-radius: 2vw;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: rgba(73, 97, 119, 0.5);
+  width: 45vw;
+  height: 50vh;
+
+}
+
+
+/*          HOME SIDER               */
+
+.avatar {
+
+  margin-bottom: 10%;
+  margin-top: -10%;
+}
+
+.avatar-collapsed {
+  margin-left: 0.4em;
+  margin-top: 0.7em;
+}
+
+.set-goal-image {
+  background-image: url('../assets/SVG/setGoal.svg');
+  background-size: cover;
+  /* ajusta la imagen al tamaño del botón */
+  background-position: center;
+  /* posiciona la imagen en el centro del botón */
+  background-repeat: no-repeat;
+  /* evita que se repita la imagen */
+
+}
+
+.user-menu:hover {
+  background-color: #aca0fa !important;
+}
+
+.user-menu-dark:hover {
+  background-color: #8cadff !important;
+}
+
+.header-menu-text:hover {
+  color: #333333 !important
+}
+
+.daily-goal:hover {
+  background-color: #aca0fa !important;
+  transition: all 0.0s ease-in-out;
+  /* border-radius: 20% !important;*/
+}
+
+.daily-goal-collapsed:hover {
+  background-color: #aca0fa !important;
+  border-radius: 30% !important;
+}
+
+/* .daily-sent:hover {
+    background-color: #6edfc7 !important;
+  } */
+
+/* .daily-review:hover {
+    background-color: #ffee90 !important;
+  } */
+
+.edit-goals:hover {
+  background-color: #fff !important;
+}
+
+.edit-goals-dark:hover {
+  background-color: #8cadff !important;
+  color: #000 !important;
+}
+
+.circle:hover {
+  background-color: #fff !important;
+  border: 2px solid #000 !important;
+}
+
+.random-home:hover {
+  background-color: #f9afcd !important;
+  transform: translateX(-5px);
+}
+
+.review-home:hover {
+  background-color: #b0f0e3 !important;
+  transform: translateX(-5px);
+}
+
+.customer-home:hover {
+  background-color: #c1b8ff !important;
+  transform: translateX(-5px);
+}
+
+.back-to-home:hover {
+  background-color: #f9afcd !important;
+}
+
+.back-to-home-dark:hover {
+  background-color: #e3e3e3 !important;
+}
+
+.app-title:hover {
+  transform: rotate(-360deg);
+}
+
+.title-box:hover {
+  background-color: #8cadff !important;
+}
+
+.apc-pie-sector-line {
+  stroke: black !important;
+}
+
+
+/* Scroll vertical */
+.latest-shipments .ant-table-body::-webkit-scrollbar {
+  width: 6px !important; /* Ancho del scroll vertical */
+  height: 8px !important;
+  border-radius: 0.5vh !important;
+}
+
+
+.latest-shipments .ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #a8c1f4 !important; /* Color del scroll horizontal */
+}
+
+/* Modificar el color de fondo del modal */
+.task-content .ant-modal-content {
+  background-color: #ffffff !important;
+  border-radius: 2vh !important;
+  /* margin-top: 5vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:2px solid #000 */
+  /* height: 41vh;
+  width: 100vh; */
+
+}
+
+.task-content-dark .ant-modal-content {
+  background-color: #2b2c2e !important;
+  border-radius: 2vh !important;
+  color: #e3e3e3 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:2px solid #000 */
+  /* height: 41vh;
+  width: 100vh; */
+
+}
+
+
+/* Modificar el color del botón de cierre del modal */
+.task-content .ant-modal-close-x {
+  color: #fff;
+}
+
+.click-right {
+  transform: rotate(180deg);
+}
+
+.click-left {
+  transform: rotate(-180deg);
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.my-table-2 {
+  background-color: #222326 !important;
+  border-radius: 30% !important;
+}
+
+
+/* Estilos del encabezado */
+.my-table-2- .ant-table-thead > tr > th {
+  background-color: #222326 !important;
+  color: #e3e3e3 !important;
+  border-top: 2px solid #000;
+  border-bottom-color: #000 !important;
+  border-left: 2px solid #000;
+}
+
+/* Estilos de las celdas */
+.my-table-2- .ant-table-cell {
+  color: #e3e3e3 !important;
+  /* border-top: 1.5px solid #000 !important; */
+  border-bottom: 2px solid #222326 !important;
+   background-color: #2b2c2e !important;
+}
+
+/* Estilos del scroll */
+.my-table-2- .ant-table-body::-webkit-scrollbar {
+  width: 6px; /* Ancho del scroll */
+  height: 8px;
+}
+
+.my-table-2- .ant-table-body::-webkit-scrollbar-thumb {
+  background-color: #4f5154; /* Color del scroll */
+  border-color: #000;
+}
+
+.my-table-2- .ant-table-body::-webkit-scrollbar-track {
+  background: #2b2c2e !important;
+  border: 0px solid #000
+  /* Color de fondo de la pista de la barra de desplazamiento */
+}
+
+.inputs-filters {
+  background-color: #2b2c2e !important;
+  border: 1.5px solid #000;
+  color: #e3e3e3 !important;
+}

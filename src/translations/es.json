@@ -1,0 +1,148 @@
+{
+    "Login.username": "Nombre de usuario",
+    "Login.password": "Contraseña",
+    "Login.remember": "Recordarme",
+    "Login.login": "Iniciar sesión",
+    "Login.welcome": "!Bienvenido de vuelta!",  
+
+    "Sider.title.collapsed": "Envíos y Revisiones",
+    "Sider.title": "Envíos y Revisiones",
+    "Sider.todaysGoal": "Meta de hoy",
+    "Sider.testSent": "Eviados",
+    "Sider.testWord": "pruebas",
+    "Sider.Reviewed": "Revisados",
+    "Sider.EditGoals": "Editar metas",
+    "Sider.AcceptGaol": "Aceptar",
+    "Sider.SetGoal": "Establece tu meta diaria",
+    
+    "Home.title": "Casa",
+    "Shipments.title": "Envíos",
+    "Reviews.title": "Revisiones",
+    "Metrics.title": "Métricas",
+    
+    "Home.buttonRandom": "Envíos",
+    "Home.randomText": "Establece una configuración y envía todo tipo de pruebas, de manera específica o aleatoria",
+    "Home.randomStar": "Empieza a enviar",
+
+    "Home.buttonCustomer": "Revisiones",
+    "Home.customerText": "Inspecciona resultados, compara respuestas y revisa cada prueba que has enviado",
+    "Home.customerStar": "Empieza a revisar",
+
+    "Home.buttonReview": "Métricas",
+    "Home.reviewText": "Analiza cuantas pruebas has enviado y cuantas has revisado",
+    "Home.reviewStar": "Empieza a analizar",
+
+    "Home.text": "La manera más fácil para enviar y revisar pruebas",
+    "Home.lestsStart": "!Empecemos ahora!",
+    "Home.latestShipment": "Últimos envíos",
+    "Home.Queue": "Fila por país",
+
+    "BackToHome.Button":"Volver a casa",
+
+    "Header.Menu.dayoff": "Día de descanso",
+    "Header.Team": "Equipo: ",
+    "Header.Role": "Puesto: ",
+    "Header.Menu.language": "Español",
+    "Header.Menu.Theme.light": "Claro",
+    "Header.Menu.Theme.dark": "Oscuro",
+    "Header.Menu.logout": "Cerrar sesión",
+
+    "Random.Title": "Envíos aleatorios",
+    "Random.Steps.SetConfig": "Establece una configuración",
+    "Random.Steps.ConfirmData": "Confirma tus datos",
+    "Random.Steps.SendingTests": "Finalizado",
+    "Random.Steps.Done": "Envío terminado",
+
+    "Random.header": "Construye un envío",
+
+    "Random.setConfig.header-A": "Establecer una configuración",
+    "Random.setConfig.header-B": "Selección de dificultades",
+    "Random.setConfig.typeTest": "Categoría de la prueba",
+    "Random.setConfig.country": "País",
+    "Random.setConfig.state": "Estado",
+    "Random.setConfig.document": "Documento",
+    "Random.setConfig.docCountry": "Docs por país",
+    "Random.setConfig.docSwitch": "Cambio",
+    "Random.setConfig.docCountry_All": "Todos",
+    "Random.setConfig.docCountry_All-B": "Todos",
+    "Random.setConfig.docCountry_Specific": "Específico",
+    "Random.setConfig.typeShipment": "Tipo de envío",
+    "Random.setConfig.typeShipment-Sepecific": "Específico",
+    "Random.setConfig.typeShipment-Random": "Aleatorio",
+    "Random.setConfig.Delay": "Intervalo de tiempo (segundos)",
+    "Random.setConfig.Delay-2": "Intervalo de tiempo",
+    "Random.confirmData.TimeShipment": "Tiempo de envío",
+    "Random.confirmData.difficulties": "Dificultades",
+    "Random.confirmData.noApply": "No aplica",
+    "Random.confirmData.seconds": "segundos",
+    "Random.confirmData.now": "Ahora",
+
+    "Random.setConfig.Next": "Siguiente",
+
+    "Random.setConfig.difficulty": "Dificultad",
+    "Random.setConfig.available": "Disponibles",
+    "Random.setConfig.InputAmount": "Ingresa cantida",
+    "Random.setConfig.Schedule":"Programar envío",
+
+
+    "Random.setConfig.searchButton": "Buscar",
+    "Random.setConfig.finishButton": "Finalizar",
+    "Random.setConfig.cancelhButton": "Cancelar",
+    "Random.setConfig.dontAvailable": "No hay pruebas disponibles",
+
+    "Random.SetConfig.warning.typeTest": "Por favor selecciona un tipo de prueba",
+    "Random.SetConfig.warning.country": "Por favor selecciona un país",
+    "Random.SetConfig.warning.state": "Por favor selecciona un estado",
+    "Random.SetConfig.warning.document": "Por favor selecciona un tipo de documento",
+    "Random.SetConfig.warning.grade": "Por favor selecciona algún documento",
+    "Random.SetConfig.warning.typeShipment": "Por favor selecciona un tipo de envío",
+    "Random.SetConfig.warning.delay": "Por favor selecciona un intervalo de tiempo",
+    "Random.SetConfig.warning.difficulty": "Por favor selecciona al menos una dificultad",
+    "Random.SetConfig.warning.buttons": "Por favor primero selecciona país y documento",
+    "Random.SetConfig.warning.wait": "Por favor espera",
+
+    "Random.Confirm.text": "Así que, antes de hacerlo asegurate de que tu configuración sea correcta",
+    "Random.Confirm.text2": "Estas a punto de iniciar un envío",
+    "Random.Confirm.ConfirmButton": "Iniciar envío",
+    "Random.Confirm.PreviousButton": "Cancelar",
+    
+
+    "Random.Sending.text": "Tus pruebas han sido enviadas",
+    "Random.Sending.text-2": "En algunos momentos podrás ver los resultados en la pagina de inicio, mientras tanto podrás iniciar otro envío o ir al inicio",
+    
+    "Random.Sending.Button": "Volver al inicio",
+    "Random.Sending.Button-2": "Iniciar otro envío",
+    
+
+    "Customer.Title": "Quejas de cliente",
+    "Review.Title": "Revisión de pruebas",
+
+    "LatestShipments.tester": "Tester",
+    "LatestShipments.date": "Fecha",
+    "LatestShipments.country": "País",
+    "LatestShipments.document": "Documento",
+    "LatestShipments.difficulty": "Dificultad",
+    "LatestShipments.identityID": "Identity ID",
+    "LatestShipments.documentID": "Document ID",
+    "LatestShipments.status": "Estado",
+    "LatestShipments.reason": "Motivo",
+    "LatestShipments.details": "Detalles",
+
+    "TableDetails.date":"Fecha del envío",
+    "TableDetails.tester":"Enviado por",
+    "TableDetails.config":"Configuración",
+    "TableDetails.about":"Información",
+    "TableDetails.front":"Lado frontal",
+    "TableDetails.back":"Lado trasero",
+    "TableDetails.close":"Cerrar",
+
+    "Sending.test": "Enviando"
+
+
+
+
+
+    
+    
+    
+  }

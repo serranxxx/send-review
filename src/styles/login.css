@@ -1,0 +1,43 @@
+  .fondo-login {
+    background-image: url('../assets/SVG/fondo-login.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;  
+    
+    }
+
+    .user-not-found {
+      background-image: url('../assets/SVG/usernotFound.svg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;  
+      
+      }
+  
+
+
+  .login-button {
+    background-color: #fdb88c;
+    border: 1.6px solid black;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.2s ease-out;
+    }
+
+  .login-button:hover {
+    background-color: #fff !important;
+    color: black !important;
+    transform: translateY(-5px);
+  }
+
+  .div-login {
+      transition: transform 0.2s ease-out;
+    }
+  
+  .div-login:hover{
+      transform: translateX(-12px);
+    }
+
+  .div-login:hover{
+      transform: translateX(-12px);
+    }
