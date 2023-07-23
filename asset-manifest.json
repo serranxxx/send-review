@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/send-review/static/css/main.e7cf7387.css",
-    "main.js": "/send-review/static/js/main.58cd13bf.js",
+    "main.css": "/send-review/static/css/main.4dc5d1e2.css",
+    "main.js": "/send-review/static/js/main.c9d54432.js",
     "static/media/fondo-login.svg": "/send-review/static/media/fondo-login.55111885d1f1da4387b0.svg",
     "static/media/background.svg": "/send-review/static/media/background.48baaba910e55c867888.svg",
     "static/media/shipment-background.svg": "/send-review/static/media/shipment-background.c5cdf222b6b7821de1ac.svg",
@@ -39,11 +39,11 @@
     "static/media/confirm-pink.svg": "/send-review/static/media/confirm-pink.04df97128ba96bfe1c8a.svg",
     "static/media/sending-icon.svg": "/send-review/static/media/sending-icon.405bbca7e518c06f90a0.svg",
     "index.html": "/send-review/index.html",
-    "main.e7cf7387.css.map": "/send-review/static/css/main.e7cf7387.css.map",
-    "main.58cd13bf.js.map": "/send-review/static/js/main.58cd13bf.js.map"
+    "main.4dc5d1e2.css.map": "/send-review/static/css/main.4dc5d1e2.css.map",
+    "main.c9d54432.js.map": "/send-review/static/js/main.c9d54432.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7cf7387.css",
-    "static/js/main.58cd13bf.js"
+    "static/css/main.4dc5d1e2.css",
+    "static/js/main.c9d54432.js"
   ]
 }
